@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'ASIHTTPLibrary/Classes/**/*'
+  s.source_files = 'ASIHTTPLibrary/**/*'
   
   # s.resource_bundles = {
   #   'ASIHTTPLibrary' => ['ASIHTTPLibrary/Assets/*.png']
