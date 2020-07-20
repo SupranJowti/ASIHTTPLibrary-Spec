@@ -11,7 +11,6 @@ Pod::Spec.new do |s|
   s.version          = '1.0.1'
   s.summary          = 'ASIHTTPLibrary is used for nothing'
   s.requires_arc     = false
-  
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
@@ -19,9 +18,8 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-    TODO: Add long description of the pod here.
-    'ASIHTTPLibrary is used for nothing ASIHTTPLibrary is used for nothing ASIHTTPLibrary is used for nothing'
-    DESC
+  'ASIHTTPLibrary is used for nothing ASIHTTPLibrary is used for nothing ASIHTTPLibrary is used for nothing'
+                        DESC
 
   s.homepage         = 'https://github.com/SupranJowti/ASIHTTPLibrary'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -32,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'ASIHTTPLibrary/**/*'
+  s.source_files = 'ASIHTTPLibrary/Classes/**/*'
   
   # s.resource_bundles = {
   #   'ASIHTTPLibrary' => ['ASIHTTPLibrary/Assets/*.png']
